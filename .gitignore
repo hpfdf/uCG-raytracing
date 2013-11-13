@@ -1,0 +1,9 @@
+# By Pufan HE
+
+bin/
+release/
+debug/
+build/
+Makefile
+Makefile.*
+*.user
