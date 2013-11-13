@@ -11,7 +11,7 @@ A Qt5 project.
 
 Author
 -----------
-1. Pufan He <hpfdf@126.com>
+1. Pufan He \<<hpfdf@126.com>\>
 
 Since
 -----------
@@ -25,13 +25,20 @@ See /LICENSE for more information.
 How to Make
 -----------
 1. For any OS:
+
         Use qt-creator to open /ray-tracing.pro and build the project
+
 2. For linux:
-        qmake
-        make
+
+                qmake
+                make
+
 3. For windows with MinGW:
-        qmake
-        mingw32-make
+
+                qmake
+                mingw32-make
+
 4. For windows with VS2010 or higher:
-        qmake
-        nmake
+
+                qmake
+                nmake
