@@ -3,7 +3,11 @@
 bin/
 release/
 debug/
+Release/
+Debug/
 build/
 Makefile
 Makefile.*
 *.user
+*.swp
+*~

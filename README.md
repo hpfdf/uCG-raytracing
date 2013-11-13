@@ -6,8 +6,9 @@ Introduction
 Assignment for CG course 2013 fall
 in Tsinghua University, China.
 
-A simple visual demo using ray tracing algorithm.
-A Qt5 project.
+* A simple visual demo using ray tracing algorithm.
+
+* A Qt5 project.
 
 Author
 -----------
@@ -20,25 +21,26 @@ Since
 License
 -----------
 GNU GPL v3.
+
 See /LICENSE for more information.
 
 How to Make
 -----------
 1. For any OS:
 
-        Use qt-creator to open /ray-tracing.pro and build the project
+ Use qt-creator to open /ray-tracing.pro and build the project
 
 2. For linux:
 
-                qmake
-                make
+        qmake
+        make
 
-3. For windows with MinGW:
+3. For qt-windows with MinGW:
 
-                qmake
-                mingw32-make
+        qmake
+        mingw32-make
 
-4. For windows with VS2010 or higher:
+4. For qt-windows with VS2010 or higher:
 
-                qmake
-                nmake
+        qmake
+        nmake
