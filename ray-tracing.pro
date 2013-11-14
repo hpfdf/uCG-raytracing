@@ -4,12 +4,10 @@
 
 # Qt 5.1.0
 
-TEMPLATE    = app
-DESTDIR     = bin
-TARGET      = demo
-CONFIG      += qt
+TEMPLATE    = subdirs
 
-SOURCES += \
-    src/main.cpp
+SUBDIRS     += \
+    src/utils \
+    src/engine \
+    src/demo
 
-HEADERS +=

@@ -1,6 +1,8 @@
 # By Pufan HE
 
 bin/
+tmp/
+temp/
 release/
 debug/
 Release/
