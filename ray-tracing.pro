@@ -6,8 +6,8 @@
 
 TEMPLATE    = subdirs
 
+CONFIG      += ordered static
 SUBDIRS     += \
     src/utils \
     src/engine \
     src/demo
-

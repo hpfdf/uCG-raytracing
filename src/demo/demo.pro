@@ -16,6 +16,6 @@ SOURCES += \
 
 HEADERS +=
 
-unix|win32: LIBS += -L$$OUT_PWD/../../bin/ -lcgutils -L$$OUT_PWD/../../bin/ -lcgengine
+unix|win32: LIBS += -L$$OUT_PWD/../../lib/ -lcgutils -L$$OUT_PWD/../../lib/ -lcgengine
 INCLUDEPATH += $$PWD/../../include
-DEPENDPATH += $$PWD/../../bin
+DEPENDPATH += $$PWD/../../lib

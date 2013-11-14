@@ -5,7 +5,8 @@
 # Qt 5.1.0
 
 TEMPLATE    = lib
-DESTDIR     = ../../bin
+CONFIG      += staticlib
+DESTDIR     = ../../lib
 TARGET      = cgengine
 OBJECTS_DIR = ../../tmp
 
@@ -23,13 +24,13 @@ SOURCES += \
 
 
 HEADERS += \
-    geometry/mesh.h \
-    geometry/basic.h \
-    object/triangle.h \
-    object/sphere.h \
-    object/simplify.h \
-    object/object.h \
-    render/tracing.h \
-    render/render.h \
-    render/raster.h \
-    tree/kdtree.h
+    ../../include/engine/geometry/mesh.h \
+    ../../include/engine/geometry/basic.h \
+    ../../include/engine/object/triangle.h \
+    ../../include/engine/object/sphere.h \
+    ../../include/engine/object/simplify.h \
+    ../../include/engine/object/object.h \
+    ../../include/engine/render/tracing.h \
+    ../../include/engine/render/render.h \
+    ../../include/engine/render/raster.h \
+    ../../include/engine/tree/kdtree.h

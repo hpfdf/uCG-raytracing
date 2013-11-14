@@ -5,7 +5,8 @@
 # Qt 5.1.0
 
 TEMPLATE    = lib
-DESTDIR     = ../../bin
+CONFIG      += staticlib
+DESTDIR     = ../../lib
 TARGET      = cgutils
 OBJECTS_DIR = ../../tmp
 
@@ -16,7 +17,7 @@ SOURCES += \
     gpu.cpp
 
 HEADERS += \
-    thread.h \
-    scene.h \
-    obj.h \
-    gpu.h
+    ../../include/utils/thread.h \
+    ../../include/utils/scene.h \
+    ../../include/utils/obj.h \
+    ../../include/utils/gpu.h
