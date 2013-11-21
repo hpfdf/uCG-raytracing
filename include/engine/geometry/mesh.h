@@ -1,21 +1,19 @@
 #ifndef UCG_MESH_H
 #define UCG_MESH_H
 
-#include <basic.h>
+#include "basic.h"
+#include "../color/color.h"
 
-struct Vertex
+typedef struct
 {
         Vector3D p, norm;
-};
+} Vertex;
 
-struct Mesh
+typedef struct
 {
-        Vertex *a, *b, *c;
-};
-
-struct VertexSet
-{
-
-};
+        size_t a, b, c;
+        size_t mat;
+        Vector2D ta, tb, tc;
+} Mesh;
 
 #endif
